@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eunice Park</title>
+  <meta name="description" content="Eunice Park — economics, finance and technology.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Moving particle background -->
+  <canvas id="particles" aria-hidden="true"></canvas>
+
+  <header class="nav">
+    <a href="#top" class="nav-name"></a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a href="resume.pdf" target="_blank" rel="noopener" class="nav-resume">Resume</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="top" class="hero">
+      <h1>Hi, I'm Eunice Park.</h1>
+      <p class="hero-sub">
+        Recent Economics graduate looking for what's next in finance and tech. Here's what I've been up to so far.
+      </p>
+      <div class="hero-actions">
+        <a href="#experience" class="btn btn-primary">See my work</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <h2 class="section-title">About</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I hold a Bachelor of Arts in Economics from the University of Ottawa and currently work at Public Services and Procurement Canada as a Project Officer.
+            My goal is to move into fintech, where I can bring together economics, finance and my passion for technology to make financial systems more efficient and accessible.
+          </p>
+          <p>
+            I'm fluent in three languages, and I learn best building. I'm always taking part in hackathons and personal projects, most recently Engage+, which won first place and is now in the process of becoming a startup.
+          </p>
+        </div>
+        <ul class="facts">
+          <li><span>Education</span>BSocSc, Sciences Économiques</li>
+          <li><span>Work</span>Project Officer at PSPC</li>
+          <li><span>Languages</span>English, French, Korean</li>
+          <li><span>Next</span>TBD</li>
+        </ul>
+      </div>
+      <div class="skills">
+        <span>Python</span><span>Power BI</span><span>Excel automation</span><span>SAP</span>
+        <span>Data validation</span><span>Financial analysis</span><span>Agile</span>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <h2 class="section-title">Experience</h2>
+
+      <article class="job">
+        <div class="job-side">
+        <div class="job-when">Sep 2026 — Present</div>
+        <div class="job-where">Ottawa, ON</div>
+        </div>
+        <div class="job-body">
+          <h3>Project Officer <em>· Public Services and Procurement Canada</em></h3>
+          <p class="job-meta">Vendor Management</p>
+          <ul>
+            <li>Coordinate onboarding, offboarding, contracting, and status tracking for 700+ external consultants across vendors including Dayforce, IBM, EY, PwC, Deloitte, and others.</li>
+            <li>Maintain and reconcile consultant records, documentation, and operational trackers to support accurate workforce administration and timely processing.</li>
+            <li>Develop Power BI dashboards to improve visibility into vendor workforce data, operational trends, and management reporting.</li>
+            <li>Lead manager-directed process automation initiatives, including Power BI and Purolator tracking enhancements, to reduce manual effort and improve data consistency, monitoring, and workflow efficiency.</li>
+            <li>Coordinate with vendors, managers, and internal stakeholders to resolve consultant onboarding, contracting, access, and documentation issues.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="job">
+        <div class="job-side">
+        <div class="job-when">May 2025 — April 2026</div>
+        <div class="job-where">Ottawa, ON</div>
+        </div>
+        <div class="job-body">
+          <h3>Student Economic Analyst <em>· Statistics Canada</em></h3>
+          <p class="job-meta">Prices Team, International Accounts &amp; Trade Division · FSWEP</p>
+          <ul>
+            <li>Extracted, transformed, and analyzed large-scale trade and pricing datasets using Python, Excel, Access, and Mercury.</li>
+            <li>Supported trade-measurement modernization by identifying data-quality issues and improving reporting accuracy and reliability.</li>
+            <li>Conducted commodity-level pricing research to support price-index methodology and economic reporting.</li>
+            <li>Supported Harmonized System code rebasing, improving classification accuracy across import/export data.</li>
+            <li>Prepared analytical findings and recommendations for internal stakeholders to support data-driven decision-making.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="job">
+        <div class="job-side">
+        <div class="job-when">Jan 2024 — Apr 2025</div>
+        <div class="job-where">Gatineau, QC</div>
+        </div>
+        <div class="job-body">
+          <h3>Student Strategic Operations Analyst <em>· Public Services and Procurement Canada</em></h3>
+          <p class="job-meta">IBM Team, Vendor Management · FSWEP</p>
+          <ul>
+            <li>Analyzed pricing and contract performance across 400+ IT consulting engagements, identifying discrepancies, risks, and emerging issues for management.</li>
+            <li>Investigated vendor-management issues using available data and consultations with IBM and internal stakeholders to support recommended resolutions.</li>
+            <li>Built automated Excel risk-monitoring tools that improved review efficiency by 30% and enabled proactive identification of budget and pricing concerns.</li>
+            <li>DCo-developed and maintained the Vendor Management SharePoint platform, centralizing operational tools and documentation.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="job">
+        <div class="job-side">
+        <div class="job-when">May 2022 — Aug 2022</div>
+        <div class="job-where">Toronto, ON</div>
+        </div>
+        <div class="job-body">
+          <h3>Finance &amp; Accounting Assistant <em>· Andorix Inc.</em></h3>
+          <ul>
+            <li>Handled invoicing, FX reconciliations and vendor settlements in SAP; supported accurate month-end close.</li>
+            <li>Supported the CFO in internal control reviews, audit preparation and financial reporting.</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <h2 class="section-title">Projects &amp; Leadership</h2>
+      <div class="cards">
+        <article class="card">
+          <p class="card-tag">🏆 1st Place FSS Challenge Winners · Startup · Co-founder</p>
+          <h3>Engage+</h3>
+          <p>A bilingual iOS platform for university student engagement. Leading Agile development and stakeholder coordination, secured faculty support for a uOttawa pilot, and built the go-to-market plan for national expansion.</p>
+          <p class="card-tag">Jan 2025</p>
+          <a href="https://prezi.com/view/r5FzwsKimHFJCObKEa5j/" target="_blank" rel="noopener" class="card-link">Take a look at our winning pitch →</a>
+        </article>
+        
+        <article class="card">
+          <p class="card-tag">Leadership · Statistics Canada</p>
+          <h3>GCWCC Youth Champion</h3>
+          <p>• Recipient of the Certificate of Recognition from the Chief Statistician of Canada for leadership, engagement, and organizational impact.</p>
+          <p>• Developed and delivered bilingual information and engagement presentations to Statistics Canada employees nationally.</p>
+          <p class="card-tag">June 2025 - Dec 2025</p>
+          <a href="certificate-gcwcc-2025.pdf" target="_blank" rel="noopener" class="card-link">View certificate →</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <h2 class="section-title">Contact</h2>
+      <p class="contact-lead">Open to opportunities in finance, data, and technology. Let's talk.</p>
+      <div class="contact-icons">
+        <a href="mailto:euniceparrk@gmail.com" aria-label="Email" title="Email">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/eunicepark28/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/eparrk" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="resume.pdf" target="_blank" rel="noopener" aria-label="Resume" title="Resume">
+          <i class="fa-solid fa-file-lines"></i>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>© Park 2026</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
