@@ -280,3 +280,47 @@ footer {
   border-color: var(--accent);
   transform: translateY(-3px);
 }
+
+.about-photo {
+  width: 150px;
+  height: 195px;
+  object-fit: cover;
+  object-position: 70% 45%;
+  border-radius: 50%;
+  border: 3px solid var(--bg);
+  outline: 1.5px solid var(--accent);
+  outline-offset: 4px;
+  margin-bottom: 32px;
+  display: block;
+}
+
+/* Line the photo up with the About heading */
+#about .section-title {
+  max-width: 60%;
+}
+.about-side {
+  margin-top: -105px;
+}
+
+/* On phones, stack normally */
+@media (max-width: 760px) {
+  #about .section-title { max-width: none; }
+  .about-side { margin-top: 0; }
+}
+
+/* About section on phones and narrow screens */
+@media (max-width: 760px) {
+  .about-grid { gap: 32px; }
+
+  /* Let the photo and facts move independently */
+  .about-side { display: contents; }
+
+  .about-photo {
+    order: -1;              /* photo goes first */
+    width: 120px;
+    height: 156px;
+    margin: 0 auto;         /* centred */
+  }
+  .about-text { order: 0; } /* bio second */
+  .facts { order: 1; }      /* facts last */
+}
