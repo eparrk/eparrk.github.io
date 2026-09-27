@@ -18,7 +18,7 @@ html { scroll-behavior: smooth; scroll-padding-top: var(--nav-h); }
 body {
   background: radial-gradient(ellipse at top, #0b0d38 0%, var(--bg) 60%) fixed, var(--bg);
   color: var(--text);
-  font-family: 'Inter', system-ui, sans-serif;
+  font-family: 'Jost', system-ui, sans-serif;
   font-size: 17px;
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
@@ -54,7 +54,7 @@ main, footer, .nav { position: relative; z-index: 1; }
   z-index: 10;
 }
 .nav-name {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cormorant Garamond', serif;
   font-weight: 700;
   font-size: 1.15rem;
   white-space: nowrap;
@@ -90,7 +90,7 @@ main, footer, .nav { position: relative; z-index: 1; }
   margin-bottom: 20px;
 }
 .hero h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cormorant Garamond', serif;
   font-size: clamp(2.6rem, 8vw, 5.2rem);
   line-height: 1.05;
   letter-spacing: -0.01em;
@@ -98,7 +98,7 @@ main, footer, .nav { position: relative; z-index: 1; }
 }
 .hero-sub {
   color: var(--muted);
-  font-size: 1rem;
+  font-size: 1.2rem;
   max-width: none;
   white-space: nowrap;
   margin-bottom: 40px;
@@ -127,7 +127,7 @@ main, footer, .nav { position: relative; z-index: 1; }
   padding: 72px clamp(16px, 4vw, 24px);
 }
 .section-title {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cormorant Garamond', serif;
   font-size: clamp(1.8rem, 4vw, 2.4rem);
   display: flex;
   align-items: baseline;
@@ -135,7 +135,7 @@ main, footer, .nav { position: relative; z-index: 1; }
   margin-bottom: 48px;
 }
 .section-title span {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.9rem;
   font-weight: 500;
   color: var(--accent);
@@ -222,7 +222,7 @@ main, footer, .nav { position: relative; z-index: 1; }
   color: var(--accent);
   margin-bottom: 10px;
 }
-.card h3 { font-family: 'Playfair Display', serif; font-size: 1.5rem; margin-bottom: 12px; }
+.card h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; margin-bottom: 12px; }
 .card p { color: var(--muted); }
 .card-link { display: inline-block; margin-top: 18px; color: var(--accent); font-weight: 500; }
 
@@ -230,7 +230,7 @@ main, footer, .nav { position: relative; z-index: 1; }
 .contact { text-align: left; }
 .contact-lead { color: var(--muted); font-size: 1.15rem; margin-bottom: 16px; }
 .contact-email {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cormorant Garamond', serif;
   font-size: clamp(1.6rem, 5vw, 2.8rem);
   border-bottom: 2px solid var(--accent);
   transition: color .2s;
