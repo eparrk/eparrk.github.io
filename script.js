@@ -69,7 +69,7 @@ function draw() {
     if (mouse.x !== null) {
       const dist = Math.hypot(dots[i].x - mouse.x, dots[i].y - mouse.y);
       if (dist < SETTINGS.mouseDistance) {
-        ctx.strokeStyle = `rgba(240, 138, 126, ${0.45 * (1 - dist / SETTINGS.mouseDistance)})`;
+        ctx.strokeStyle = `rgba(165, 216, 240, ${0.45 * (1 - dist / SETTINGS.mouseDistance)})`;
         ctx.beginPath();
         ctx.moveTo(dots[i].x, dots[i].y);
         ctx.lineTo(mouse.x, mouse.y);

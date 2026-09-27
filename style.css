@@ -5,8 +5,8 @@
   --line: rgba(255, 255, 255, 0.10);
   --text: #ece8f1;
   --muted: #a3a1bd;
-  --accent: #f08a7e;          /* coral, like your old Resume link */
-  --accent-soft: rgba(240, 138, 126, 0.14);
+  --accent: #cfeaf7;
+  --accent-soft: rgba(165, 216, 240, 0.12);
   --max: 1000px;
   --nav-h: 68px;
 }
@@ -135,7 +135,7 @@ main, footer, .nav { position: relative; z-index: 1; }
   margin-bottom: 48px;
 }
 .section-title span {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Cormorant Garamond', sans-serif;
   font-size: 0.9rem;
   font-weight: 500;
   color: var(--accent);
@@ -287,9 +287,9 @@ footer {
   object-fit: cover;
   object-position: 70% 45%;
   border-radius: 50%;
-  border: 3px solid var(--bg);
+    border: 3px solid var(--bg);
   outline: 1.5px solid var(--accent);
-  outline-offset: 4px;
+  outline-offset: 3px;
   margin-bottom: 32px;
   display: block;
 }
