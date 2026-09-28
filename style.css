@@ -324,3 +324,7 @@ footer {
   .about-text { order: 0; } /* bio second */
   .facts { order: 1; }      /* facts last */
 }
+
+.card .card-tag:not(:first-child) {
+  margin-top: 14px;
+}
